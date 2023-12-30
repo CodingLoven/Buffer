@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: 'Roboto', 'sans-serif';
 }
@@ -12,7 +13,10 @@ body {
 nav {
     display: flex;
     background-color: #fff;
-    padding-top: 1rem;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
 }
 
 .logodiv {
@@ -291,10 +295,13 @@ nav ul {
 }
 
 /* main section starts here while the nav ends here */
+/* Section 1 starts here */
 
 .sec1 {
     background: #fff;
     display: flex;
+    margin-bottom: 0;
+    margin-top: 5rem;
 }
 
 .sec1_div {
@@ -350,7 +357,8 @@ nav ul {
     width: 20rem;
     padding: 15px;
     border-radius: 5px;
-    border: 1px solid black
+    border: 1px solid black;
+    font-size: 17px;
 }
 
 .mail {
@@ -412,4 +420,143 @@ nav ul {
 .bene p {
     font-size: 15px;
     color: #5a5a5a;
+}
+
+/* section2 starts here */
+
+.sec2 {
+    background: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: -10rem;
+}
+
+.cards {
+    background: white;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 12rem;
+    height: 8rem;
+    padding: 10px;
+    margin: 1rem;
+} 
+
+.cards img {
+    width: 3rem;
+    height: 2.5rem;
+}
+
+.cards h3 {
+    font-size: 22px;
+    margin: 0
+}
+
+.green {
+    display: inline-flex;
+}
+
+.green img {
+    width: 1rem;
+    height: 1rem;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.text {
+    text-align: center;
+    padding: 20px;
+    margin-top: 3rem;
+}
+
+.text h3 {
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.text p {
+    line-height: 1.8;
+}
+
+/* section 3 starts here */
+
+.sec3 {
+    display: flex;
+    background: #fff;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+}
+
+.first {
+    width: 50rem;
+    margin-left: 2rem;
+    padding-bottom: 40px;
+}
+
+.first ol {
+    margin-left: -1.2rem;
+    color: #2c4bff;
+    font-weight: bolder;
+}
+
+.first h2 {
+    font-size: 32px;
+}
+
+.first p {
+    width: 30rem;
+    margin-top: 3rem;
+}
+
+.img2 {
+    width: 60rem;
+    height: 25rem;
+    margin-top: -6rem;
+}
+
+.img2 img {
+    width: 45rem;
+    height: auto;
+}
+
+.first button {
+    background: #2c4bff;
+    border: 15px solid #2c4bff;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    width: 10rem;
+    height: 3rem;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.first button:hover {
+    color: #fff;
+    background: #1c38d1;
+    border: 15px solid #1c38d1;
+}
+
+/* Section 4 starts here */
+
+.sec4 {
+    display: flex;
+    background: #fafafa;
+}
+
+.first1 {
+    margin-left: 2rem;
+    width: 50rem
+}
+
+.img3 {
+    width: 15rem;
+    height: 15rem;
+}
+
+.img3 img {
+    width: 15rem;
+    height: auto;
 }
