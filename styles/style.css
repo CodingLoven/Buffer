@@ -499,10 +499,12 @@ nav ul {
     margin-left: -1.2rem;
     color: #2c4bff;
     font-weight: bolder;
+    letter-spacing: 0.1rem;;
 }
 
 .first h2 {
     font-size: 32px;
+    color: #000;
 }
 
 .first p {
@@ -528,7 +530,7 @@ nav ul {
     color: #fff;
     font-size: 18px;
     width: 10rem;
-    height: 3rem;
+    height: 3.2rem;
     margin-top: 2rem;
     cursor: pointer;
 }
@@ -544,19 +546,254 @@ nav ul {
 .sec4 {
     display: flex;
     background: #fafafa;
+    height: 35rem;
 }
 
 .first1 {
     margin-left: 2rem;
-    width: 50rem
+    width: 50rem;
+    margin-top: 8rem;
 }
 
 .img3 {
-    width: 15rem;
-    height: 15rem;
+    width: 60rem;
+    height: 25rem;
+    margin-top: 8rem;
 }
 
 .img3 img {
-    width: 15rem;
+    width: 42rem;
     height: auto;
+}
+
+.first1 h2 {
+    color: #000;
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.first1 p {
+    width: 32rem;
+    color: #000;
+    line-height: 1.9;
+    margin-top: 2rem;
+}
+
+.first1 ol {
+    color:#2c4bff;
+    margin-left: -1.2rem;
+    font-weight: bolder;
+    letter-spacing: 0.1rem;
+}
+
+.first1 button {
+    color: #fff;
+    background-color: #2c4bff;
+    border: 15px solid #2c4bff;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+    width: 10rem;
+    height: 3.2rem;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.first1 button:hover {
+    color: #fff;
+    background: #1c38d1;
+    border: 15px solid #1c38d1;
+}
+
+/* section 5 starts here */
+
+.sec5 {
+    display: flex;
+}
+
+.sec5 button {
+    width: 12rem;
+}
+
+.sec5 img {
+    width: 40rem;
+}
+
+/* section 6 starts here  */
+
+.sec6 {
+    display: flex;
+    background: #fafafa;
+    height: 35rem
+}
+
+.sec6 button {
+    width: 13rem
+}
+
+.sec6 ol {
+    letter-spacing: 0.1rem;;
+}
+
+.sec6 h2 {
+    width: 30rem;
+    font-weight: bolder;
+}
+
+.sec6 p {
+    width: 30rem
+}
+
+/* section 7 starts here */
+.sec7 {
+    background: #fff;
+
+}
+
+.sec7_container {
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-left: 1rem
+}
+
+.testimony {
+    background: #fff;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 1rem;
+    text-align: center;
+    width: 22rem;
+    padding: 10px;
+    height: 22rem
+}
+
+.heads {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: -4.5rem;
+}
+
+.logos {
+    width: 8rem;
+    height: 4rem;
+    object-fit: fill;
+    margin-top: 0.8rem;;
+}
+
+.logos1 {
+    width: 8rem;
+    height: 4rem;
+    object-fit: fill;
+    margin-top: 1.8rem;;
+}
+
+.testimony p {
+    margin-top: 2.5rem;
+    font-size: 15px;
+    width: 20rem;
+    margin-left: 1rem;
+}
+
+.company {
+    font-weight: bolder;
+    color: #000;
+}
+
+.counts {
+    display: inline-flex;
+    margin-left: 1rem;
+}
+
+.count {
+    display: block;
+    text-align: center;
+    width: 19rem;
+}
+
+.count h2 {
+    color: #2c4bff;
+    font-size: 42px;
+    font-weight: bolder;
+}
+
+.count p {
+    margin-top: -2rem;
+}
+
+/* section 8 starts here */
+
+.sec8 {
+    background: #fff;
+    margin-top: 12rem;
+}
+
+.help_div {
+    display: flex;
+}
+
+.help {
+    width: 50rem;
+    margin-left: 2rem;
+    margin-bottom: 3rem;
+}
+
+.help h2 {
+    font-size: 32px;
+    margin-bottom: 2rem;
+    font-weight: bolder;
+}
+
+.help p {
+    width: 35rem;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.help button {
+    background: #fff;
+    border: 1px solid #2c4bff;
+    border-radius: 5px;
+    padding: 12px;
+    color: #2c4bff;
+    width: 12rem;
+    font-size: 17px;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.help button:hover {
+    color: #2c4bff;
+    background: #d1d5ec;;
+}
+
+.last_img {
+    width: 40rem;
+    height:20rem;
+    margin-top: -2rem;
+    margin-right: 2rem;
+}
+
+.last_img img {
+    width: 35rem;
+    height: auto;
+}
+
+.official  {
+   text-align: center;
+   margin-top: 3rem;
+}
+
+.official h6 {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.official img {
+    width: 8rem;
+    height: 4rem;
+    margin-left: 5rem;
+    margin-top: -2rem;
 }
