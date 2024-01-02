@@ -783,7 +783,7 @@ nav ul {
 
 .official  {
    text-align: center;
-   margin-top: 3rem;
+   margin-top: 5rem;
 }
 
 .official h6 {
@@ -791,9 +791,46 @@ nav ul {
     font-weight: bolder;
 }
 
-.official img {
-    width: 8rem;
-    height: 4rem;
-    margin-left: 5rem;
+.meta{
+    display: inline-flex;
     margin-top: -2rem;
+    margin-bottom: 5rem;
+}
+
+.meta1 {
+    width: 6rem;
+    height: 4rem;
+    object-fit: contain;
+}
+
+.meta2 {
+    width: 8rem;
+    height: 3rem;
+    object-fit: contain;
+    margin-left: 4rem;
+
+}
+
+.meta3 {
+    width: 10rem;
+    height: 3rem;
+    object-fit: contain;
+    margin-left: 4rem;
+}
+
+/* section 9 starts here */
+
+.sec9 {
+    background-color: #2c4bff;
+    height: auto;
+    color: #fff;
+    padding: 100px;
+}
+
+.last_section {
+    color: #fff;
+    text-align: center;
+    width: 50rem;
+    margin-left: 7rem;
+    font-size: 22px;
 }
