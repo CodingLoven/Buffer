@@ -10,15 +10,14 @@ body {
     font-family: 'Roboto', 'sans-serif';
 }
 
-.menu-icon {
-    display: none;
-    cursor: pointer;
-    font-size: 24px;
-    margin: 20px;
+.Iconst {
+    font-size: 2.3rem;
     position: absolute;
-    top: 0;
-    right: 0;
-  }
+    right: 3%;
+    top: 15%;
+    cursor: pointer;
+    display: none;
+}
 
 nav {
     display: flex;
@@ -27,7 +26,6 @@ nav {
     top: 0;
     z-index: 9999;
     width: 100%;
-    overflow: hidden;
 }
 
 .logodiv {
@@ -1012,6 +1010,7 @@ footer h6 {
 
 
 
+/* BREAKAGE FOR THE MOBILE VIEW */
 
 
 
@@ -1019,9 +1018,6 @@ footer h6 {
 
 
 
-
-
-/* The mobile view starts here */
 
 @media only screen and (min-width: 414px) and (max-width: 896px) {
     @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500&family=Roboto&display=swap');
@@ -1035,10 +1031,6 @@ footer h6 {
 body {
     font-family: 'Roboto', 'sans-serif';
 }
-
-.menu-icon {
-    display: block;
-  }
 
 nav {
     display: flex;
@@ -1054,7 +1046,6 @@ nav {
     display: inline-flex;
 }
 
-
 .logo {
     width: 5rem;
     height: 3em;
@@ -1063,17 +1054,7 @@ nav {
 .nav_div {
     display: flex;
     margin-top: -0.7rem;
-    position: absolute;
-    top: 60px;
-    right: -100%;
-    background-color: #222;
-    transition: right 0.3s ease;
-    z-index: 1;
 }
-
-.nav_div.active {
-    right: 0;
-  }
 
 nav ul li {
     display: inline-flex;
