@@ -1019,7 +1019,7 @@ footer h6 {
 
 
 
-@media only screen and (min-width: 414px) and (max-width: 896px) {
+@media screen and (max-width: 1024px) {
     @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500&family=Roboto&display=swap');
 
 ::before,*::after {
@@ -1039,6 +1039,7 @@ nav {
     top: 0;
     z-index: 9999;
     width: 100%;
+    height: 3rem;
 }
 
 .logodiv {
@@ -1049,6 +1050,7 @@ nav {
 .logo {
     width: 5rem;
     height: 3em;
+    margin-top: 1rem;
 }
 
 .nav_div {
@@ -1310,89 +1312,101 @@ nav ul {
 }
 
 /* main section starts here while the nav ends here */
+
 /* Section 1 starts here */
 
 .sec1 {
     background: #fff;
-    display: flex;
+    display: block;
     margin-bottom: 0;
-    margin-top: 5rem;
+    margin-top: 6rem;
 }
 
 .sec1_div {
     display: inline-block;
-    margin-left: 2rem;
+    margin-left: 0.5rem;
 }
 
 .video_icon {
     display: inline-flex;
-    width: 20rem;
+    width: 50% ;
     height: auto;
+    justify-content: center;
+
 }
 
 .video_icon img {
     width: 2rem;
     height: 1.6rem;
+    margin-right: -0.8rem;
 }
 
 .video_icon a {
     text-decoration: underline;
     color: #2c4bff;
-    margin-top: 0.4rem;
-    margin-left: 1rem;
+    margin-top: 0.5rem;
     font-weight: bolder;
+    font-size: 16px;
 }
 
 .sec1_div h4 {
-    font-size: 42px;
+    font-size: 18px;
     font-weight: bolder;
-    width: 30rem;
+    width: 50%;
     margin-bottom: 0;
+    text-align: center;
+    margin-left: 0.7rem;
 }
 
 .sec1_div p {
-    width: 32rem;
-    font-size: 16px;
+    width: 17rem;
+    font-size: 13px;
+    left: 0;
     color: #333;
     line-height: 1.7;
     margin-top: 2rem;
+    text-align: center;
+    margin-left: 0.4rem;
+
 }
 
 .img1 {
-    width: 50rem;
-    height: 50rem;
-    margin-left: 3rem;
+    width: 30rem;
+    height: 30rem;
+    margin-left: 0.5rem;
 }
 
 .img1 img {
-    width: 40rem;
+    width: 18rem;
 }
 
 .mail input {
-    width: 20rem;
-    padding: 15px;
+    width: 13rem;
+    padding: 12px;
     border-radius: 5px;
     border: 1px solid black;
-    font-size: 17px;
+    font-size: 12px;
 }
 
 .mail {
-    display: inline-flex;
+    display: block;
     margin-top: 2rem;
+    margin-left: 2rem;
 }
 
 .mail button {
-    display: inline-flex;
+    display: block;
     color: #fff;
     background: #2c4bff;
-    border: 15px solid #2c4bff;
+    border: 8px solid #2c4bff;
     border-radius: 5px;
-    width: 12rem;
-    height: 3.2rem;
+    width: 10rem;
+    height: 2.5rem;
     text-align: center;
-    font-size: 18px;
+    font-size: 15px;
     cursor: pointer;
-    margin-left: 0.5rem;
+    margin-left: 1.8rem;
+    margin-top: 0.5rem;
 }
 
 .mail button:hover {
@@ -1403,38 +1417,42 @@ nav ul {
 
 .benefits {
     display: flex;
-    width: 5rem;
+    width: 30rem;
+
 }
 
 .bene1 {
     display: flex;
+    margin-left: 2rem;
 }
 
 .bene1 img {
-    margin-top: 1rem;
+    margin-top: 1.4rem;
     width: 1.5rem;
 }
 
 .bene1 p {
-    font-size: 15px;
+    font-size: 10px;
     color: #5a5a5a;
-    margin-right: -5rem;
+    margin-left: -7rem;
 }
 
 .bene {
     display: flex;
-    margin-left: -26rem;
+    margin-left: -6rem;
 }
 
 .bene img {
-    margin-top: 1rem;
+    margin-top: 1.4rem;
     width: 1.5rem;
     margin-left: 5rem
 }
 
 .bene p {
-    font-size: 15px;
+    font-size: 10px;
     color: #5a5a5a;
+    margin-left: -5.5rem;
+
 }
 
 /* section2 starts here */
@@ -1444,9 +1462,10 @@ nav ul {
 }
 
 .container {
-    display: flex;
+    display: block;
     justify-content: center;
     margin-top: -10rem;
+    margin-left: 1.6rem
 }
 
 .cards {
@@ -1465,8 +1484,12 @@ nav ul {
 }
 
 .cards h3 {
-    font-size: 22px;
+    font-size: 15px;
     margin: 0
+}
+
+.cards p {
+    font-size: 12px;
 }
 
 .green {
@@ -1476,7 +1499,7 @@ nav ul {
 .green img {
     width: 1rem;
     height: 1rem;
-    margin-top: 0.5rem;
+    margin-top: 0rem;
     margin-left: 0.5rem;
 }
 
@@ -1484,28 +1507,33 @@ nav ul {
     text-align: center;
     padding: 20px;
     margin-top: 3rem;
+    display: block;
+    width: 16rem;
 }
 
 .text h3 {
-    font-size: 32px;
+    font-size: 20px;
     font-weight: bolder;
 }
 
 .text p {
     line-height: 1.8;
+    font-size: 13px;
+    width: 15rem
 }
 
 /* section 3 starts here */
 
 .sec3 {
-    display: flex;
+    display: block;
     background: #fff;
     margin-top: 5rem;
     margin-bottom: 10rem;
+    max-width: 20rem;
 }
 
 .first {
-    width: 50rem;
+    width: 20rem;
     margin-left: 2rem;
     padding-bottom: 40px;
 }
@@ -1514,11 +1542,13 @@ nav ul {
     margin-left: -1.2rem;
     color: #2c4bff;
     font-weight: bolder;
-    letter-spacing: 0.1rem;;
+    letter-spacing: 0.1rem;
+    font-size: 14px;
+    text-align: center
 }
 
 .first h2 {
-    font-size: 32px;
+    font-size: 22px;
     color: #000;
 }
 
