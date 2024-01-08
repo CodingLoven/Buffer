@@ -1510,21 +1510,20 @@ footer h6 {
         padding: 20px;
         margin-top: 3rem;
         display: block;
-        width: 20rem;
+        max-width: 40rem;
     }
     
     .text h3 {
-        font-size: 22px;
+        font-size: 25px;
         font-weight: bolder;
-        width: 20rem;
-        margin-left: 1.5rem;
+        max-width: 20rem;
+        margin-left: 2.2rem;
     }
     
     .text p {
         line-height: 1.8;
-        font-size: 15px;
-        width: 22rem;
-        margin-left: 1rem;
+        font-size: 16px;
+        margin-left: 0.5rem;
     }
     
     /* section 3 starts here */
