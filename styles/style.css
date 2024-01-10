@@ -1016,6 +1016,7 @@ footer h6 {
 /* mobile view */
 
 @media (max-width: 480px) {
+
     ::before,*::after {
         margin: 0;
         padding: 0;
@@ -1026,16 +1027,47 @@ footer h6 {
         font-family: 'Roboto', 'sans-serif';
     }
     
+
+    .Iconst {
+        font-size: 2.8rem;
+        position: absolute;
+        left: 23rem;
+        top: 1.2rem;
+        cursor: pointer;
+        display: inline-flex;
+    }
+    
     nav {
-        display: flex;
+        display: block;
         background-color: #fff;
         position: fixed;
         top: 0;
-        z-index: 9999;
-        width: 100%;
-        height: 3rem;
+        z-index: 99999;
+        width: 26rem;
+        height: 6rem;
     }
     
+
+    .nav-elements {
+        display: block;
+        margin-left: -10.4rem;
+        margin-top: 9rem;
+        width: 10rem;
+        font-weight: bolder;
+        visibility: hidden;
+    }
+    
+    .nav-elements a {
+        margin-left: 3.5rem;
+        text-decoration: none;
+        color: #333;
+        line-height: 3;
+        font-size: 22px;
+    }
+    
+    .nav-elements a:hover {
+        color: #2c4bff
+    }
     .logodiv {
         margin-left: 1rem;
         display: inline-flex;
@@ -1056,6 +1088,7 @@ footer h6 {
         display: inline-flex;
         position: relative;
         margin-left: 1rem;
+        margin-top: -1.5rem;
     }
     
     nav ul li a {
@@ -1066,14 +1099,20 @@ footer h6 {
     
     nav ul {
         list-style-type: none;
-        display: inline-flex;
-        margin-left: 8rem
+        display: block;
+        margin-left: 4.5rem;
+        width: 10rem;
+        margin-top: 2rem;
+        font-weight: bolder;
+        /* visibility: hidden; */
     }
+
+
     
     .dropdown {
         padding: 2rem;
         cursor: pointer;
-        font-size: 18px;
+        font-size: 22px;
     }
     
     .dropdown_content {
@@ -1183,7 +1222,7 @@ footer h6 {
     .dropdown1 {
         padding: 2rem;
         cursor: pointer;
-        font-size: 18px;
+        font-size: 22px;
     }
     
     
@@ -1252,38 +1291,25 @@ footer h6 {
         object-fit: fill;
     }
     
-    .nav-elements {
-        display: inline-flex;
-        margin-left: -1rem;
-    }
-    
-    .nav-elements a {
-        margin-left: 3.5rem;
-        margin-top: 3rem;
-        text-decoration: none;
-        color: #333;
-        font-size: 18px;
-    }
-    
-    .nav-elements a:hover {
-        color: #2c4bff
-    }
     
     .btn {
-        display: inline-flex;
+        display: block;
+        text-align: center;
         margin-left: 9rem;
         margin-top: 1.5rem;
+        width: 6rem
     }
     
     .btn button {
         background: #2c4bff;
         border: 2px solid #2c4bff;
-        margin-left: 1rem;
+        margin-left: 6rem;
+        margin-top: -20.6rem;
         border-radius: 5px;
         color: #fff;
-        font-size: 18px;
-        width: 10rem;
-        height: 3.2rem;
+        font-size: 14px;
+        width: 8rem;
+        height: 2.5rem;
         cursor: pointer;
     }
     .btn button:hover {
@@ -1293,11 +1319,14 @@ footer h6 {
     }
     
     .btn a {
-        font-size: 18px;
+        font-size: 22px;
         color: #2c4bff;
-        margin-top: 0.9rem;
-        margin-right: 0.5rem;
         text-decoration: none;
+        text-align: center;
+        width: 10rem;
+        margin-left: rem;
+        font-weight: bolder;
+        visibility: hidden;
     }
     
     .btn a:hover {
@@ -1313,8 +1342,9 @@ footer h6 {
         background: #fff;
         display: block;
         margin-bottom: 0;
-        margin-top: 6rem;
+        margin-top: 8rem;
         max-width: 25rem;
+        visibility: hidden;
     }
     
     .sec1_div {
@@ -2137,7 +2167,3 @@ footer h6 {
 
 
 /* THE tABLET VIEW */
-
-
-
-
