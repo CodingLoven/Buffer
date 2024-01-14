@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500&family=Roboto&display=swap');
+@media only screen and (min-width: 1024px) {
 
 ::before,*::after {
     margin: 0;
@@ -6,8 +6,14 @@
     box-sizing: border-box;
 }
 
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
 body {
-    font-family: 'Roboto', 'sans-serif';
+    font-family: "Roboto", 'sans-serif';
     scroll-behavior: auto;
 }
 
@@ -1009,6 +1015,9 @@ footer h6 {
     color: #2c4bff;
     border: 1px solid #cad0f8;
 }
+
+}
+
 
 
 
@@ -2206,8 +2215,6 @@ footer h6 {
 
 /* THE EXTRA SMALL TABLET VIEW */
 @media (min-width: 481px) and (max-width: 767px) {
-    
-    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500&family=Roboto&display=swap');
 
 ::before,*::after {
     margin: 0;
@@ -3398,8 +3405,7 @@ footer h6 {
 /* THE SMALL TABLET VIEW */
 
 @media (min-width: 768px) and (max-width: 991px) {
-    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500&family=Roboto&display=swap');
-
+    
     ::before,*::after {
         margin: 0;
         padding: 0;
@@ -3778,7 +3784,6 @@ footer h6 {
     .video_icon img {
         width: 2rem;
         height: 1.6rem;
-        margin-right: -0.8rem;
     }
     
     .video_icon a {
@@ -4476,7 +4481,7 @@ footer h6 {
     }
     
     .last_icons {
-        margin-top: -100rem;
+        margin-top: -96rem;
         position: absolute;
         text-align: center;
     }
@@ -4490,7 +4495,7 @@ footer h6 {
     
     .last_icon img {
         width: 3rem;
-        height: 1.5rem;
+        height: 1.2rem;
         cursor: pointer;
     }
     
@@ -4498,6 +4503,7 @@ footer h6 {
         color: #000;
         font-size: 12px;
         font-weight: bolder;
+        margin-left: 1rem;
     }
     
     .downloads {
@@ -4510,6 +4516,7 @@ footer h6 {
         padding-right: 1rem;
         cursor: pointer;
         margin-top: 0.5rem;
+        margin-left: 1.2rem;
     }
     
     .downloads1 {
@@ -4521,6 +4528,7 @@ footer h6 {
         color: #2c4bff;
         padding-right: 1rem;
         cursor: pointer;
+        margin-left: 1.2rem;
     }
     
     .downloads img {
@@ -4541,7 +4549,7 @@ footer h6 {
     
     .copy {
         display: inline-flex;
-        width: 22rem;
+        width: 20rem;
     }
     
     .copy p {
@@ -4569,13 +4577,13 @@ footer h6 {
     .downloads1:hover {
         background: #cad0f8;
         color: #2c4bff;
-        border: 1px solid #cad0f8;
+        border: 1px solid #2c4bff
     }
     
     .downloads:hover {
         background: #cad0f8;
         color: #2c4bff;
-        border: 1px solid #cad0f8;
+        border: 1px solid #2c4bff
     }
     
     }
